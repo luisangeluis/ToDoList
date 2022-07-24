@@ -10,7 +10,6 @@ router.route('/todo/:id')
   .get(httpToDo.getById)
   .delete(httpToDo.del)
   .patch(httpToDo.update)
-  // .update(httpToDo.update)
 
 module.exports={
   router
